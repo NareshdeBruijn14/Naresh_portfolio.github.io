@@ -1,0 +1,79 @@
+---
+title: "CV"
+author: "Naresh de Bruijn"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# Allow me to introduce myself briefly.
+
+I'm proficient in both Dutch and English languages. I'm deeply passionate about learning about cancer and continually seek opportunities to expand my knowledge in this area.
+
+# Education
+
+```{r Education}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bacholar of Life Science", "2018-2024", "Univeristy of Applied Sciences Utrecht", "Utrecht, The Netherlands",
+  
+  "Anglia, Proficiency (CEFR C1) level", "2017-2018", "Chichester College", "Chichester, England",
+  
+  "HAVO (N&G profile)", "2011-2017", "Erfgooiers College", "Huizen, The Netherlands",
+
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Internship / (major) project
+
+```{r Skills}
+tribble(
+  ~ Project, ~ Year, ~ Grades, ~ Institute, ~ Description,
+  
+  "Internship", "2022-2023", "Experimenting: 7, Research: 6", "Hartwig Medical Foundation, Science Park, Amsterdam", "During my internship, I worked in two domains: diagnostics and innovation. In the diagnostics domain, I focused on understanding and maintaining the laboratory pipeline for cancer samples. In the innovation domain, I helped set up a targeted SNV-characterization method.",
+  
+  "Projecticum Biomolecular Research (BMR)", "2021-2022", "8.1", "Hubrecht Institute, Science Park, Utrecht", "During my specialization in BMR, I worked on a project called Hexabody technology in collaboration with Ubrecht Institute. This technology targets cancer cells. I was responsible for conducting experiments to examine the stability of hexamer antibodies and using HPLC for monitoring.",
+
+) %>% 
+  detailed_entries(Year, Grades, Project, Institute, Description)
+```
+
+# Relavant Coursework
+
+```{r Coursework}
+tribble(
+  ~ Course, ~ Grades, ~ Description,
+  
+  "Data Sciences for Biology 1", "VD", "The course covers Advanced Bioinformatics (AB), aata analysis using R 1 and 2 (DAUR1 and DAUR2). The AB course delves into NGS data analysis, bash scripting, and various bioinformatics tools for gene annotation and motif discovery. DAUR1 introduces R for statistical analysis and data visualization, while DAUR2 builds on this with advanced R programming skills for RNA sequencing and metagenomics analysis. Both courses provide practical skills applicable in real-world scenarios.",
+  
+  "Tumorcell Biology", "6.5", "The Cource covers how disruptions in various cellular processes can lead to the initiation, growth, and metastasis of tumors, including the role of cell signaling, regulation of cell division and apoptosis, as well as the influence on and by the tumor microenvironment. The course covers various processes contributing to cancer development, including tumorigenesis, genetic factors like tumor suppressor genes and proto-oncogenes, mutagenesis, aneuploidy, DNA repair, receptor trafficking, growth regulation mechanisms, proliferation signaling, stem cells, telomerase, immune response, apoptosis, angiogenesis, metastasis, and cancer treatment.",
+  
+  "Biotechnology", "6.5", "Understanding of biotechnological methods for genetic modification of microorganisms, animals, and plants, as well as insights into downstream processing of biotechnological products and ethical considerations in biotechnology.",
+  
+  
+) %>% 
+  detailed_entries(Description, Grades, Course)
+```
+
+
+# Experiences
+
+```{r Experiences}
+tribble(
+  ~ Job, ~ Year, ~ Employer, ~ Where, ~ What,
+    "Financial management", "2022-2023", "Unitas S.R.", "Utrecht", "I volunteered at my student society's kitchen, where I cook for 150 Unitas S.R. members each workday with a team of 10 fellow members. In addition to culinary duties, I've taken on the role of managing the kitchen's finances, handling financial planning and monitoring for Unitas S.R.'s kitchen operations.",
+  
+  "Covid-test sampler", "2020-2022", "GGDrU", "Utrecht, The Netherlands", "Collecting samples (such as nasal swabs or saliva) from individuals for Covid-19 testing.",
+  
+  "Residential support worker psychogeriatrics", "2015-2018", "Vivium Zorggroep", "Laren, The Netherlands", "Responsible for coordinating clients' meals, dietary intake, organizing engaging activities, and providing essential daily home care.",
+  
+) %>% 
+  detailed_entries(Year, Where, Job, Employer, What)
+```
