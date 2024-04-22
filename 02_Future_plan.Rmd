@@ -1,0 +1,7 @@
+# Future plans
+
+In approximately two years from now, I will be completing my master's program in Medical Science at the University of Amsterdam (UvA). My aspiration is to actively engage in an oncology research group, leveraging bioinformatics tools to advance the field of oncology.
+
+By combining my background in Life Sciences with a focus on data science for biology, I'm  well-positioned to contribute meaningfully to oncology research with bioinformatic approaches. I have to keep pursuing opportunities to further education (like a master program), gain research experience, and network with professionals in the fields to achieve my goal.
+
+I want to learn more about Python, but I also want to learn more about bioinformatics and computational biology. Python is used in many scientific fields, including oncology research. It will help me analyse data, develop algorithms and contribute to research projects.
