@@ -1,3 +1,3 @@
 # Portfolio 
 
-nareshdebruijn14.github.io
+nareshdebruijn14/nareshdebruijn14.github.io
