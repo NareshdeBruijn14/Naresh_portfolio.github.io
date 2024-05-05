@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Portfilio Naresh</title>
+  <title>Guerrilla Analytics | Portfilio Naresh</title>
   <meta name="description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
   <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Portfilio Naresh" />
+  <meta property="og:title" content="Guerrilla Analytics | Portfilio Naresh" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
   <meta name="github-repo" content="NareshdeBruijn14/Naresh_portfolio" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Portfilio Naresh" />
+  <meta name="twitter:title" content="Guerrilla Analytics | Portfilio Naresh" />
   
   <meta name="twitter:description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="curriculum-vitae.html"/>
+<link rel="prev" href="future-plan.html"/>
+<link rel="next" href="c.elegans-plate-experiment.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -175,25 +175,54 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Portfilio Naresh</h1>
-<p class="author"><em>Naresh de Bruijn</em></p>
-<p class="date"><em>2024-05-05</em></p>
+<div id="guerrilla-analytics" class="section level1 unnumbered">
+<h1>Guerrilla Analytics</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="guerrilla-analytics.html#cb1-1" tabindex="-1"></a><span class="co"># libraries</span></span>
+<span id="cb1-2"><a href="guerrilla-analytics.html#cb1-2" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb1-3"><a href="guerrilla-analytics.html#cb1-3" tabindex="-1"></a><span class="fu">library</span>(fs)</span>
+<span id="cb1-4"><a href="guerrilla-analytics.html#cb1-4" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<div id="example-guerrilla-analytics-daur-ii" class="section level4 unnumbered">
+<h4>Example Guerrilla Analytics DAUR-II</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="guerrilla-analytics.html#cb2-1" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(here<span class="sc">::</span><span class="fu">here</span>(</span>
+<span id="cb2-2"><a href="guerrilla-analytics.html#cb2-2" tabindex="-1"></a>  <span class="st">&quot;documents&quot;</span>,</span>
+<span id="cb2-3"><a href="guerrilla-analytics.html#cb2-3" tabindex="-1"></a>  <span class="st">&quot;Guerrilla_Analytics_metagenomics.png&quot;</span></span>
+<span id="cb2-4"><a href="guerrilla-analytics.html#cb2-4" tabindex="-1"></a>))</span></code></pre></div>
+<p><img src="documents/Guerrilla_Analytics_metagenomics.png" width="702" /></p>
 </div>
-<div id="introduction" class="section level1 unnumbered">
-<h1>Introduction</h1>
-<p class="red">
-<p>red</p>
-</p>
+<div id="root-of-workflow-portfolio-project" class="section level4 unnumbered">
+<h4>Root of Workflow portfolio project</h4>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="guerrilla-analytics.html#cb3-1" tabindex="-1"></a><span class="co"># print root of workflows portfolio project</span></span>
+<span id="cb3-2"><a href="guerrilla-analytics.html#cb3-2" tabindex="-1"></a><span class="fu">dir_tree</span>(<span class="st">&quot;.&quot;</span>, <span class="at">recurse =</span> <span class="cn">TRUE</span>, <span class="at">regexp =</span> <span class="st">&quot;^.gitignore$|^[^_|(.git)]&quot;</span>, <span class="at">all =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<pre><code>## .
+## ├── .gitignore
+## ├── 01_CV.Rmd
+## ├── 02_Future_plan.Rmd
+## ├── 03_Guerrilla_Analytics.Rmd
+## ├── 04_Celegans_plate_experiment.Rmd
+## ├── DSFB2_portfolio.Rproj
+## ├── LICENSE
+## ├── README.md
+## ├── data
+## │   ├── CE.LIQ.FLOW.062_Tidydata.xlsx
+## │   ├── METADATA.txt
+## │   └── README.txt
+## ├── documents
+## │   ├── Guerrilla_Analytics_metagenomics.png
+## │   └── README.txt
+## ├── layout.css
+## └── raw_data
+##     ├── CE.LIQ.FLOW.062_Tidydata.xlsx
+##     └── README.txt</code></pre>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="curriculum-vitae.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="future-plan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="c.elegans-plate-experiment.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
