@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Guerrilla Analytics | Portfolio Naresh</title>
+  <meta name="description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Guerrilla Analytics | Portfolio Naresh" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
+  <meta name="github-repo" content="NareshdeBruijn14/Naresh_portfolio" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Guerrilla Analytics | Portfolio Naresh" />
+  
+  <meta name="twitter:description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
+  
+
+<meta name="author" content="Naresh de Bruijn" />
+
+
+<meta name="date" content="2024-05-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="id_02.html"/>
+<link rel="next" href="id_04.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-18.2.0/react.min.js"></script>
+<script src="libs/react-18.2.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="libs/reactable-0.4.4/reactable.css" rel="stylesheet" />
+<script src="libs/reactable-binding-0.4.4/reactable.js"></script>
+
+
+<link href="layout.css" rel="stylesheet">
+<div class="hero-image-container">
+  <img class= "hero-image" src="documents/images/DNA_helix_blue.png">
+</div>
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="layout.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc"><h2>Table of Contents</h2></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Home Page</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#table-of-contents"><i class="fa fa-check"></i>Table of Contents</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#packages-dependency"><i class="fa fa-check"></i>Packages dependency</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html"><i class="fa fa-check"></i>Resumé</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#personal-details"><i class="fa fa-check"></i>Personal details</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#allow-me-to-introduce-myself-briefly"><i class="fa fa-check"></i>Allow me to introduce myself briefly</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#education"><i class="fa fa-check"></i>Education</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#internship-major-project"><i class="fa fa-check"></i>Internship / (major) project</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#relevant-coursework"><i class="fa fa-check"></i>Relevant Coursework</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#experiences"><i class="fa fa-check"></i>Experiences</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html"><i class="fa fa-check"></i>Free schedule plan</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html#introduction-1"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html#goals"><i class="fa fa-check"></i>Goals</a></li>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html#plan"><i class="fa fa-check"></i>Plan</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_03.html"><a href="id_03.html"><i class="fa fa-check"></i>Guerrilla Analytics</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html"><i class="fa fa-check"></i>C.elegans plate experiment</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#import-and-inspect-dataset"><i class="fa fa-check"></i>Import and inspect dataset</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#scatterplot"><i class="fa fa-check"></i>Scatterplot</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#scatterplot-ce_liq_flow_062_tidydata"><i class="fa fa-check"></i>Scatterplot CE_LIQ_FLOW_062_Tidydata</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#analysis-plan"><i class="fa fa-check"></i>Analysis plan</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#normalise-ce_liq_flow_062_tidydata"><i class="fa fa-check"></i>Normalise CE_LIQ_FLOW_062_Tidydata</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#scatterplot-normalised-ce_liq_flow_062_tidydata"><i class="fa fa-check"></i>Scatterplot normalised CE_LIQ_FLOW_062_Tidydata</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html"><i class="fa fa-check"></i>Open Peer Review</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#introduction-2"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#article-overview"><i class="fa fa-check"></i>Article overview</a></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#peer-review"><i class="fa fa-check"></i>Peer review</a></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#conclusion"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html"><i class="fa fa-check"></i>Projecticum: Pediatric Cancer</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html#introduction-3"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html#cfdna"><i class="fa fa-check"></i>cfDNA</a></li>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html#r-shiny-app"><i class="fa fa-check"></i>R shiny app</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_20.html"><a href="id_20.html"><i class="fa fa-check"></i>Reference</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Portfolio Naresh</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="id_03" class="section level1 unnumbered">
+<h1>Guerrilla Analytics</h1>
+<div id="example-guerrilla-analytics-daur-ii" class="section level4 unnumbered">
+<h4>Example Guerrilla Analytics DAUR-II</h4>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="id_03.html#cb1-1" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(here<span class="sc">::</span><span class="fu">here</span>(</span>
+<span id="cb1-2"><a href="id_03.html#cb1-2" tabindex="-1"></a>  <span class="st">&quot;documents&quot;</span>,</span>
+<span id="cb1-3"><a href="id_03.html#cb1-3" tabindex="-1"></a>  <span class="st">&quot;images&quot;</span>,</span>
+<span id="cb1-4"><a href="id_03.html#cb1-4" tabindex="-1"></a>  <span class="st">&quot;Guerrilla_Analytics_metagenomics.png&quot;</span></span>
+<span id="cb1-5"><a href="id_03.html#cb1-5" tabindex="-1"></a>))</span></code></pre></div>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="documents/images/Guerrilla_Analytics_metagenomics.png" alt="Guerrilla Analytics tree structure of DAUR-II." width="702" />
+<p class="caption">
+Figure 1: Guerrilla Analytics tree structure of DAUR-II.
+</p>
+</div>
+</div>
+<div id="root-of-workflow-portfolio-project" class="section level4 unnumbered">
+<h4>Root of Workflow portfolio project</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="id_03.html#cb2-1" tabindex="-1"></a><span class="co"># print root of workflows portfolio project</span></span>
+<span id="cb2-2"><a href="id_03.html#cb2-2" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">dir_tree</span>(<span class="st">&quot;.&quot;</span>, <span class="at">recurse =</span> T, <span class="at">regexp =</span> <span class="st">&quot;^.gitignore$|^[^_|(.git)]&quot;</span>, <span class="at">all =</span> T)</span></code></pre></div>
+<pre><code>## .
+## ├── .gitignore
+## ├── 01_CV.Rmd
+## ├── 02_Free_schedule_plan.Rmd
+## ├── 03_Guerrilla_Analytics.Rmd
+## ├── 04_Celegans_plate_experiment.Rmd
+## ├── 05_Reproducible_Research.Rmd
+## ├── 07_Projecticum_introduction.Rmd
+## ├── 20_ref.Rmd
+## ├── DSFB2_portfolio.Rproj
+## ├── LICENSE
+## ├── README.md
+## ├── code
+## │   ├── README.txt
+## │   ├── SNPextract.sh
+## │   └── fastqc.sh
+## ├── data
+## │   ├── CE.LIQ.FLOW.062_Tidydata.xlsx
+## │   ├── METADATA.txt
+## │   ├── README.txt
+## │   └── fastqc_output
+## │       ├── SRR9834204_fastqc.html
+## │       └── SRR9834204_fastqc.zip
+## ├── documents
+## │   ├── .DS_Store
+## │   ├── README.txt
+## │   ├── bibliography.bib
+## │   └── images
+## │       ├── .DS_Store
+## │       ├── DNA_helix_blue.png
+## │       ├── DNA_helix_image.png
+## │       ├── DNA_helix_logo.png
+## │       ├── Guerrilla_Analytics_metagenomics.png
+## │       └── resume_pic.png
+## ├── hero-image.html
+## ├── layout.css
+## └── raw_data
+##     ├── CE.LIQ.FLOW.062_Tidydata.xlsx
+##     ├── README.txt
+##     └── SRR9834204.fastq.gz</code></pre>
+</div>
+<div id="root-of-projecticum-peadiatric-cancer-project" class="section level4 unnumbered">
+<h4>Root of Projecticum: Peadiatric Cancer project</h4>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="id_03.html#cb4-1" tabindex="-1"></a><span class="co"># print root of Projecticum project repo</span></span>
+<span id="cb4-2"><a href="id_03.html#cb4-2" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">dir_tree</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">&quot;../DSFB2_boys/&quot;</span>), <span class="at">recurse =</span> T, <span class="at">regexp =</span> <span class="st">&quot;^.gitignore$|^[^_|(.git)]&quot;</span>, <span class="at">all =</span>F)</span></code></pre></div>
+<pre><code>## /Users/naresh/Documents/08_DSFB/DSFB2_portfolio/../DSFB2_boys/
+## ├── Conflict4_2
+## ├── DSFB2_Project.Rproj
+## ├── DSFB2_boys.Rproj
+## ├── LICENSE
+## ├── README.html
+## ├── README.md
+## ├── code
+## │   ├── Global.R
+## │   ├── server.R
+## │   └── ui.R
+## ├── documents
+## │   ├── Project_description.txt
+## │   ├── bibliography.bib
+## │   ├── images
+## │   │   ├── logo.png
+## │   │   ├── maxima_logo.png
+## │   │   └── screenshots
+## │   │       └── dir_tree_project.png
+## │   ├── logo.tex
+## │   ├── project_introduction.Rmd
+## │   └── project_introduction.pdf
+## ├── raw_data
+## │   ├── Project_description.txt
+## │   ├── README.md
+## │   ├── code
+## │   │   ├── Global.R
+## │   │   ├── server.R
+## │   │   └── ui.R
+## │   ├── liquid_biopsies_data
+## │   │   ├── HHUBM000AAA_HHUBM000CAA_HHUCZ000AAA_WXS.vcf
+## │   │   ├── HHUBM000AAA_HHUCZ000AAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000ACA_HHUBM000ABA_HHUCZ000ACA_WXS.vcf
+## │   │   ├── HHUBM000ACA_HHUCZ000ACA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000ADA_HHUBM000CAA_HHUCZ000ADA_WXS.vcf
+## │   │   ├── HHUBM000ADA_HHUCZ000ADA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000BAA_HHUBM000CAA_HHUCZ000BAA_WXS.vcf
+## │   │   ├── HHUBM000BAA_HHUCZ000BAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000EAA_HHUBM000FAA_HHUCZ000EAA_WXS.vcf
+## │   │   ├── HHUBM000EAA_HHUCZ000EAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000GAA_HHUBM000IAA_HHUCZ000GAA_WXS.vcf
+## │   │   ├── HHUBM000GAA_HHUCZ000GAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000HAA_HHUBM000IAA_HHUCZ000HAA_WXS.vcf
+## │   │   ├── HHUBM000HAA_HHUCZ000HAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000KAA_HHUBM000LAA_HHUCZ000KAA_WXS.vcf
+## │   │   ├── HHUBM000KAA_HHUCZ000KAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000YAA_HHUBM000ABA_HHUCZ000YAA_WXS.vcf
+## │   │   ├── HHUBM000YAA_HHUCZ000YAA_WXS.tumor.cnv.vcf.gz
+## │   │   ├── HHUBM000ZAA_HHUBM000ABA_HHUCZ000ZAA_WXS.vcf
+## │   │   └── HHUBM000ZAA_HHUCZ000ZAA_WXS.tumor.cnv.vcf.gz
+## │   ├── readme.txt
+## │   ├── resources
+## │   │   ├── 20220628_gene_list.txt
+## │   │   ├── Genetic_aberrations_Wilms_tumor_20230328.csv
+## │   │   ├── RMS_gene_list.tsv
+## │   │   ├── fake_ascat_results.tsv
+## │   │   ├── maf_cfDNA_list.rds
+## │   │   ├── maf_tumor_list.rds
+## │   │   └── trecode_info_byPMCID_inSampleInfo.tsv
+## │   └── scripts
+## │       └── functions.R
+## ├── resources
+## │   ├── 20220628_gene_list.txt
+## │   ├── Genetic_aberrations_Wilms_tumor_20230328.csv
+## │   ├── RMS_gene_list.tsv
+## │   ├── fake_ascat_results.tsv
+## │   ├── maf
+## │   │   ├── maf_cfDNA_list.rds
+## │   │   └── maf_tumor_list.rds
+## │   └── trecode_info_byPMCID_inSampleInfo.tsv
+## └── scripts
+##     └── functions.R</code></pre>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="id_02.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="id_04.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true,
+"toc_depth": 3
+}
+});
+});
+</script>
+
+</body>
+
+</html>
