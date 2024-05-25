@@ -8,7 +8,7 @@ Use the following link to go to my webpage of my portfolio: <https://nareshdebru
 ## Overview components
 
 | Component             | Description                                                     | Current Version |
-|-----------------|--------------------------------------|-----------------|
+|-----------------------|-----------------------------------------------------------------|-----------------|
 | 404.html              | html file of the portfolio                                      | v1.0            |
 | curriculum-vitae.html | html file containing my CV                                      | v1.0            |
 | future-plan.html      | html file containing the future plan and the free schedule plan | v1.0            |
