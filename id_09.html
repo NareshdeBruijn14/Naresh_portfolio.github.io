@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>BS-Seq | Portfolio Naresh</title>
+  <meta name="description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="BS-Seq | Portfolio Naresh" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
+  <meta name="github-repo" content="NareshdeBruijn14/Naresh_portfolio" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="BS-Seq | Portfolio Naresh" />
+  
+  <meta name="twitter:description" content="Portfolio assignment for Data Science for Biology course at the University of Applied Science Utrecht" />
+  
+
+<meta name="author" content="Naresh de Bruijn" />
+
+
+<meta name="date" content="2024-05-26" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="id_08.html"/>
+<link rel="next" href="id_20.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-18.2.0/react.min.js"></script>
+<script src="libs/react-18.2.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="libs/reactable-0.4.4/reactable.css" rel="stylesheet" />
+<script src="libs/reactable-binding-0.4.4/reactable.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="layout.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc"><h2>Table of Contents</h2></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Home Page</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#table-of-contents"><i class="fa fa-check"></i>Table of Contents</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_00.html"><a href="id_00.html"><i class="fa fa-check"></i>Setup</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_00.html"><a href="id_00.html#packages"><i class="fa fa-check"></i>Packages</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html"><i class="fa fa-check"></i>Resumé</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#personal-details"><i class="fa fa-check"></i>Personal details</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#allow-me-to-introduce-myself-briefly"><i class="fa fa-check"></i>Allow me to introduce myself briefly</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#education"><i class="fa fa-check"></i>Education</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#internship-major-project"><i class="fa fa-check"></i>Internship / (major) project</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#relevant-coursework"><i class="fa fa-check"></i>Relevant Coursework</a></li>
+<li class="chapter" data-level="" data-path="id_01.html"><a href="id_01.html#experiences"><i class="fa fa-check"></i>Experiences</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html"><i class="fa fa-check"></i>Free schedule plan</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html#introduction-1"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html#goals"><i class="fa fa-check"></i>Goals</a></li>
+<li class="chapter" data-level="" data-path="id_02.html"><a href="id_02.html#plan"><i class="fa fa-check"></i>Plan</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_03.html"><a href="id_03.html"><i class="fa fa-check"></i>Guerrilla Analytics</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html"><i class="fa fa-check"></i>C.elegans plate experiment</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#introduction-2"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#import-and-inspect-dataset"><i class="fa fa-check"></i>Import and inspect dataset</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#scatter-plot"><i class="fa fa-check"></i>Scatter plot</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#inspection"><i class="fa fa-check"></i>Inspection</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#scatterplot-ce_liq_flow_062_tidydata"><i class="fa fa-check"></i>Scatterplot CE_LIQ_FLOW_062_Tidydata</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#analysis-plan"><i class="fa fa-check"></i>Analysis plan</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#normalising-ce_liq_flow_062_tidydata"><i class="fa fa-check"></i>Normalising CE_LIQ_FLOW_062_Tidydata</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#scatterplot-normalised-ce_liq_flow_062_tidydata"><i class="fa fa-check"></i>Scatterplot normalised CE_LIQ_FLOW_062_Tidydata</a></li>
+<li class="chapter" data-level="" data-path="id_04.html"><a href="id_04.html#conclusion"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html"><i class="fa fa-check"></i>Reproducible Research</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#open-peer-review"><i class="fa fa-check"></i>Open peer review</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#introduction-3"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#article-overview"><i class="fa fa-check"></i>Article overview</a></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#peer-review"><i class="fa fa-check"></i>Peer review</a></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#conclusion-1"><i class="fa fa-check"></i>Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_05.html"><a href="id_05.html#reproducible-analysis"><i class="fa fa-check"></i>Reproducible analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_06.html"><a href="id_06.html"><i class="fa fa-check"></i>R package</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_06.html"><a href="id_06.html#examples"><i class="fa fa-check"></i>Examples</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html"><i class="fa fa-check"></i>Projecticum: Pediatric Cancer</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html#introduction-4"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html#cfdna"><i class="fa fa-check"></i>cfDNA</a></li>
+<li class="chapter" data-level="" data-path="id_07.html"><a href="id_07.html#r-shiny-app"><i class="fa fa-check"></i>R shiny app</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_08.html"><a href="id_08.html"><i class="fa fa-check"></i>Parameterisation of COVID-19 Datasets</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_08.html"><a href="id_08.html#introduction-5"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="id_08.html"><a href="id_08.html#parameters"><i class="fa fa-check"></i>Parameters</a></li>
+<li class="chapter" data-level="" data-path="id_08.html"><a href="id_08.html#visualisation"><i class="fa fa-check"></i>Visualisation</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_08.html"><a href="id_08.html#covid-19-cases"><i class="fa fa-check"></i>Covid-19 cases</a></li>
+<li class="chapter" data-level="" data-path="id_08.html"><a href="id_08.html#covid-19-deaths"><i class="fa fa-check"></i>Covid-19 deaths</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html"><i class="fa fa-check"></i>BS-Seq</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#introduction-6"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#bisulfite-conversion"><i class="fa fa-check"></i>Bisulfite conversion</a></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#bismark"><i class="fa fa-check"></i>Bismark</a></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#data"><i class="fa fa-check"></i>Data</a></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#genome-preparation"><i class="fa fa-check"></i>Genome preparation</a></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#alignment"><i class="fa fa-check"></i>Alignment</a></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#deduplication"><i class="fa fa-check"></i>Deduplication</a></li>
+<li class="chapter" data-level="" data-path="id_09.html"><a href="id_09.html#methylation-extraction"><i class="fa fa-check"></i>Methylation extraction</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="id_20.html"><a href="id_20.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="1" data-path="dsfb2_portfolio.html"><a href="dsfb2_portfolio.html"><i class="fa fa-check"></i><b>1</b> DSFB2_portfolio</a></li>
+<li class="chapter" data-level="2" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>2</b> </a></li>
+<li class="chapter" data-level="3" data-path="direction-tree.html"><a href="direction-tree.html"><i class="fa fa-check"></i><b>3</b> Direction tree</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Portfolio Naresh</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div class="hero-image"></div>
+
+<link href="layout.css" rel="stylesheet">
+<div class="hero-image-container">
+  <img class= "hero-image" src="documents/images/DNA_helix_blue.png">
+</div>
+
+<div id="id_09" class="section level1 unnumbered">
+<h1>BS-Seq</h1>
+<div id="introduction-6" class="section level2 unnumbered">
+<h2>Introduction</h2>
+<p class="justify">
+DNA methylation plays a crucial role in many biological processes, such as gene expression, embryonic development, cellular proliferation, differentiation, and chromosome stability<span class="citation">[<a href="#ref-liDNAMethylationDetection2011">7</a>]</span>. Abnormal patterns of DNA methylation are correlated with the loss of DNA homoeostasis and DNA instability, which can lead to inherited or acquired diseases like cancer.<span class="citation">[<a href="#ref-liDNAMethylationDetection2011">7</a>, <a href="#ref-lakshminarasimhanRoleDNAMethylation2016">8</a>]</span>.
+</p>
+<p class="justify">
+In mammals, the most commonly methylation is at the carbon-5 atom in the cytosine ring within cytosine-guanine (CpG) dinucleotides. This occurs by a enzymatic reaction that is catalysed by three DNA methyltransferases (DNMTs)<span class="citation">[<a href="#ref-liDNAMethylationDetection2011">7</a>, <a href="#ref-lakshminarasimhanRoleDNAMethylation2016">8</a>]</span>. After DNA replication, the newly synthesized DNA strand undergoes methylation modification. DNMT1 catalyzes the covalent addition of a methyl group to the unmethylated strand. While DNMT1 performs the majority of DNA methylation, DNMT3a and DNMT3b provide support when DNMT1 misses a site<span class="citation">[<a href="#ref-lakshminarasimhanRoleDNAMethylation2016">8</a>]</span>.
+</p>
+<div id="bisulfite-conversion" class="section level3 unnumbered">
+<h3>Bisulfite conversion</h3>
+<p class="justify">
+Bisulfite conversion is considered the gold standard for determining DNA methylation status. During this process, treatment of DNA with sodium bisulfite converts unmethylated cytosines to uracil. These uracils are then converted to thymines during PCR amplification, while methylated cytosines remain unchanged (Figure 6)<span class="citation">[<a href="#ref-liDNAMethylationDetection2011">7</a>, <a href="#ref-miyataBisulfiteSequencingDNA2017">9</a>]</span>.
+</p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-9"></span>
+<img src="documents/images/bs-seq_method.jpeg" alt="After bisulfite treatment, all unmethylated cytosines (C) are converted to thymines (T). A C-peak indicates the presence of 5-methylcytosine (5mC) in the genome. Complete methylation or full conversion of a single residue is represented by a single peak. The presence of both C- and T-peaks suggests partial methylation or possibly incomplete bisulfite conversion[@liDNAMethylationDetection2011]."  />
+<p class="caption">
+Figure 0.6: After bisulfite treatment, all unmethylated cytosines (C) are converted to thymines (T). A C-peak indicates the presence of 5-methylcytosine (5mC) in the genome. Complete methylation or full conversion of a single residue is represented by a single peak. The presence of both C- and T-peaks suggests partial methylation or possibly incomplete bisulfite conversion<span class="citation">[<a href="#ref-liDNAMethylationDetection2011">7</a>]</span>.
+</p>
+</div>
+</div>
+<div id="bismark" class="section level3 unnumbered">
+<h3>Bismark</h3>
+<p class="justify">
+Bismark is a software tool used in the field of bioinformatics for the analysis of bisulfite sequencing data, which is a technique used to study DNA methylation<span class="citation">[<a href="#ref-kruegerBismarkFlexibleAligner2011">10</a>]</span>. It aligns bisulfite treated reads to a reference genome, identifies methylated cytosines, and generates methylation calls at single-base resolution<span class="citation">[<a href="#ref-kruegerBismarkFlexibleAligner2011">10</a>, <a href="#ref-Home">11</a>]</span>. Bismark works with a aligner and a reference genome. I chose for the Bowtie2 aligner and the Homo sapiens genome as reference genome.
+</p>
+</div>
+<div id="data" class="section level3 unnumbered">
+<h3>Data</h3>
+<p class="justify">
+Bismark includes a test BS-seq dataset containing 10,000 single-end shotgun BS reads from human embryonic stem (ES) cells. The reads are trimmed to 50 bp, and the base call qualities are Sanger encoded with Phred scores of 33. Additionally, I found two BS-seq fastq files at the <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a>. The identifiers of the fastq files are SRR9834204 and SRR29020037.
+</p>
+<ul class="g">
+<li>
+SRR9834204: This identifier has a Phred score of 37, and is from the paper <a href="https://www.jrheum.org/content/early/2019/10/28/jrheum.190376%20and%20can%20be%20found%20%5Bhere%5D">Whole Blood Targeted Bisulfite Sequencing Validates Differential Methylation in C6orf10 gene of Patients with Rheumatoid Arthritis</a> and can be accessed <a href="https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&amp;acc=SRR9834204&amp;display=metadata">here</a>.
+</li>
+<li>
+SRR29020037: this identifier has a Phred score of 37, and is from the paper <a href="https://www.biorxiv.org/content/biorxiv/early/2024/05/21/2024.05.17.594606.full.pdf">MSA: scalable DNA methylation screening BeadChip for high-throughput trait association studies</a> and its identifier can be found <a href="https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&amp;acc=SRR29020037&amp;display=metadata">here</a>
+</li>
+</ul>
+</div>
+<div id="genome-preparation" class="section level3 unnumbered">
+<h3>Genome preparation</h3>
+<p>The first step is to set the reference genome with the bismark_genome_preparation code. Therefore, I downloaded the <strong>Homo sapiens</strong> genome from the <a href="http://www.ensembl.org/info/data/ftp/index.html/">Ensembl</a> website and placed it in the genome folder. Bismark will create two individual folders within the specified directory, one for the C-&gt;T converted genome and another for the G-&gt;A converted genome. After generating these converted versions of the genome, Bismark will index them in parallel using the bowtie2-build indexer.</p>
+<div id="running-bismark_genome_preparation" class="section level5 unnumbered">
+<h5>Running bismark_genome_preparation</h5>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="id_09.html#cb58-1" tabindex="-1"></a><span class="co"># Use datasets to download biological sequence data across all domains of life from NCBI.</span></span>
+<span id="cb58-2"><a href="id_09.html#cb58-2" tabindex="-1"></a> curl <span class="sc">-</span>o datasets <span class="st">&#39;https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/mac/datasets&#39;</span></span>
+<span id="cb58-3"><a href="id_09.html#cb58-3" tabindex="-1"></a></span>
+<span id="cb58-4"><a href="id_09.html#cb58-4" tabindex="-1"></a><span class="co"># (downlaod dataformat to convert metadata from JSON Lines format to other formats) </span></span>
+<span id="cb58-5"><a href="id_09.html#cb58-5" tabindex="-1"></a><span class="co"># curl -o dataformat &#39;https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/mac/dataformat&#39;</span></span>
+<span id="cb58-6"><a href="id_09.html#cb58-6" tabindex="-1"></a></span>
+<span id="cb58-7"><a href="id_09.html#cb58-7" tabindex="-1"></a><span class="co"># make them executeble </span></span>
+<span id="cb58-8"><a href="id_09.html#cb58-8" tabindex="-1"></a> chmod <span class="sc">+</span>x datasets <span class="co">#dataformat  </span></span></code></pre></div>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="id_09.html#cb59-1" tabindex="-1"></a><span class="co"># download the homo sapiens genome with the ncbi tool &quot;datasets&quot;</span></span>
+<span id="cb59-2"><a href="id_09.html#cb59-2" tabindex="-1"></a>.<span class="sc">/</span>data<span class="sc">/</span>tools<span class="sc">/</span>datasets download genome accession GCF_000001405<span class="fl">.40</span> <span class="sc">--</span>dehydrated <span class="sc">--</span>filename human_GRCh38_dataset.zip</span>
+<span id="cb59-3"><a href="id_09.html#cb59-3" tabindex="-1"></a></span>
+<span id="cb59-4"><a href="id_09.html#cb59-4" tabindex="-1"></a><span class="co"># unzip the dataset</span></span>
+<span id="cb59-5"><a href="id_09.html#cb59-5" tabindex="-1"></a>unzip human_GRCh38_dataset.zip <span class="sc">-</span>d human_GRCh38_dataset</span>
+<span id="cb59-6"><a href="id_09.html#cb59-6" tabindex="-1"></a></span>
+<span id="cb59-7"><a href="id_09.html#cb59-7" tabindex="-1"></a><span class="co"># rehydrate to excess the data</span></span>
+<span id="cb59-8"><a href="id_09.html#cb59-8" tabindex="-1"></a>.<span class="sc">/</span>data<span class="sc">/</span>tools<span class="sc">/</span>datasets rehydrate <span class="sc">--</span>directory human_GRCh38_dataset<span class="sc">/</span> </span></code></pre></div>
+<p>USAGE: <code>bismark_genome_preparation [options] &lt;path_to_genome_folder&gt;</code></p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb60-1"><a href="id_09.html#cb60-1" tabindex="-1"></a></span>
+<span id="cb60-2"><a href="id_09.html#cb60-2" tabindex="-1"></a><span class="ex">./Bismark/bismark_genome_preparation</span> <span class="at">--path_to_aligner</span> <span class="st">&quot;./data/tools/bowtie2&quot;</span> <span class="at">--verbose</span> <span class="st">&quot;./data/genomes/human_GRCh28_datset/ncbi_dataset/data/GCF_000001405.40/GRCh38.p14.fna&quot;</span></span></code></pre></div>
+</div>
+</div>
+<div id="alignment" class="section level3 unnumbered">
+<h3>Alignment</h3>
+<p>This step involves bisulfite alignment and methylation calling. Bismark requires two main inputs:</p>
+<ul class="g">
+<li>
+The directory containing the genome of interest, including the unmodified genome (.fa or .fasta files) and the two bisulfite genome subdirectories generated during the Bismark Genome Preparation step.
+</li>
+<li>
+The sequence file(s) to be analyzed (in FastQ or FastA format).
+</li>
+</ul>
+<p>All other parameters are optional.</p>
+<div id="running-bismark" class="section level5 unnumbered">
+<h5>Running bismark</h5>
+<p>USAGE: <code>bismark [options] &lt;genome_folder&gt; {-1 &lt;mates1&gt; -2 &lt;mates2&gt; | &lt;singles&gt;}</code></p>
+<div class="sourceCode" id="cb61"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb61-1"><a href="id_09.html#cb61-1" tabindex="-1"></a><span class="co"># Typical alignment example (tolerating one non-bisulfite mismatch per read):</span></span>
+<span id="cb61-2"><a href="id_09.html#cb61-2" tabindex="-1"></a></span>
+<span id="cb61-3"><a href="id_09.html#cb61-3" tabindex="-1"></a><span class="co">#bismark --bowtie1 -n 1 -l 50 /data/genomes/homo_sapiens/GRCh37/ test_dataset.fastq</span></span></code></pre></div>
+<p>This will produce two output files:</p>
+<ul class="g">
+<li>
+test_dataset.fastq_bismark.bam (contains all alignments plus methylation call strings)
+</li>
+<li>
+test_dataset.fastq_bismark_SE_report.txt (contains alignment and methylation summary)
+</li>
+</ul>
+</div>
+</div>
+<div id="deduplication" class="section level3 unnumbered">
+<h3>Deduplication</h3>
+<p>This command will deduplicate the Bismark alignment BAM file, retaining only one read per unique position and orientation. This step is recommended for whole-genome bisulfite samples but should not be used for reduced representation libraries, such as RRBS, amplicon, or target enrichment libraries.</p>
+<p><code>deduplicate_bismark --bam [options] &lt;filenames&gt;</code></p>
+</div>
+<div id="methylation-extraction" class="section level3 unnumbered">
+<h3>Methylation extraction</h3>
+<div id="running-bismark_methylation_extractor" class="section level4 unnumbered">
+<h4>Running bismark_methylation_extractor</h4>
+<p>USAGE: <code>bismark_methylation_extractor [options] &lt;filenames&gt;</code></p>
+<div class="sourceCode" id="cb62"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb62-1"><a href="id_09.html#cb62-1" tabindex="-1"></a><span class="co"># A typical command to extract context-dependent (CpG/CHG/CHH) methylation could look like this:</span></span>
+<span id="cb62-2"><a href="id_09.html#cb62-2" tabindex="-1"></a></span>
+<span id="cb62-3"><a href="id_09.html#cb62-3" tabindex="-1"></a><span class="co">#bismark_methylation_extractor -s --comprehensive test_dataset.fastq_bismark.sam</span></span></code></pre></div>
+<p>This will produce three output files:</p>
+<ul class="g">
+<li>
+CpG_context_test_dataset.fastq_bismark.txt
+</li>
+<li>
+CHG_context_test_dataset.fastq_bismark.txt
+</li>
+<li>
+CHH_context_test_dataset.fastq_bismark.txt
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body">
+<div id="ref-liDNAMethylationDetection2011" class="csl-entry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Li Y, Tollefsbol TO (2011) <span>DNA</span> methylation detection: <span>Bisulfite</span> genomic sequencing analysis. Methods in molecular biology (Clifton, NJ) 791:11. <a href="https://doi.org/10.1007/978-1-61779-316-5_2">https://doi.org/10.1007/978-1-61779-316-5_2</a></div>
+</div>
+<div id="ref-lakshminarasimhanRoleDNAMethylation2016" class="csl-entry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Lakshminarasimhan R, Liang G (2016) The <span>Role</span> of <span>DNA Methylation</span> in <span>Cancer</span>. Advances in experimental medicine and biology 945:151–172. <a href="https://doi.org/10.1007/978-3-319-43624-1_7">https://doi.org/10.1007/978-3-319-43624-1_7</a></div>
+</div>
+<div id="ref-miyataBisulfiteSequencingDNA2017" class="csl-entry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Miyata K, Naito M, Miyata T, Mokuda S, Asahara H (2017) Bisulfite <span>Sequencing</span> for <span>DNA Methylation Analysis</span> of <span>Primary Muscle Stem Cells</span>. Methods in molecular biology (Clifton, NJ) 1668:3–13. <a href="https://doi.org/10.1007/978-1-4939-7283-8_1">https://doi.org/10.1007/978-1-4939-7283-8_1</a></div>
+</div>
+<div id="ref-kruegerBismarkFlexibleAligner2011" class="csl-entry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Krueger F, Andrews SR (2011) Bismark: A flexible aligner and methylation caller for <span>Bisulfite-Seq</span> applications. Bioinformatics 27(11):1571–1572. <a href="https://doi.org/10.1093/bioinformatics/btr167">https://doi.org/10.1093/bioinformatics/btr167</a></div>
+</div>
+<div id="ref-Home" class="csl-entry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Home</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="id_08.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="id_20.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true,
+"toc_depth": 3
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
