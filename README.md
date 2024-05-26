@@ -1,3 +1,4 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # Naresh_portfolio
@@ -7,11 +8,22 @@
 #### ***Date: May 2024***
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-Welcome to my github pages repo! My name is Naresh de Bruijn, and I am pleased to introduce you to this Gitbook. This project was built using the CRAN R package {bookdown}, inspired by [Yihui Xie](https://bookdown.org/yihui/bookdown/).
+Welcome to my github pages repo! My name is Naresh de Bruijn, and I am
+pleased to introduce you to this Gitbook. This project was built using
+the CRAN R package {bookdown}, inspired by [Yihui
+Xie](https://bookdown.org/yihui/bookdown/).
 
-Within this Gitbook, you will find a collection of RMarkdown files containing my portfolio assignments. These assignments demonstrate the skills I acquired during the Data Sciences for Biology minor at University of Applied Sciences Utrecht. This Gitbook is linked to a GitHub Pages website, which serves as my final product for the DSFB2 Workflows course.
+Within this Gitbook, you will find a collection of RMarkdown files
+containing my portfolio assignments. These assignments demonstrate the
+skills I acquired during the Data Sciences for Biology minor at
+University of Applied Sciences Utrecht. This Gitbook is linked to a
+GitHub Pages website, which serves as my final product for the DSFB2
+Workflows course.
 
-You can find my webpage by clicking [here](https://nareshdebruijn14.github.io/Naresh_portfolio.github.io/).
+You can find my webpage by clicking
+[here](https://nareshdebruijn14.github.io/Naresh_portfolio.github.io/).
+
+The book is build from
+[NareshdeBruijn14/dsfb2_workflows_portfolio](https://github.com/NareshdeBruijn14/dsfb2_workflows_portfolio)
